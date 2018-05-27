@@ -16,14 +16,21 @@ int main()
 	{
 
 		enum fields { WORD, HINT, NUM_FIELDS };
-		const int NUM_WORDS = 5;
+		const int NUM_WORDS = 10;
 		const string WORDS[NUM_WORDS][NUM_FIELDS]
 		{
-			{"wall" , "Do you feel you're banging your head against something?"},
-			{"glasses", "These might help you see the answer"},
-			{"labored", "Going slowly, is it?"},
-			{"persistent", "Keep at it."},
-			{"jumble", "It's what the game is all about."}
+			{"vaaljapie" , "Inferior wine"},
+			{"vaalhaai", "South African shark"},
+			{"kidology", "Deceptive trickery"},
+			{"urbicide", "destruction of a city"},
+			{"zimocca", "bath sponge"}
+			{"xenogenous", "due to an outside cause"}
+			{"meatus", "opening of a passage or canal"}
+			{"malchus", "short cutting sword"}
+			{"catenate", "to connect as in or by a chain"}
+			{"burganet", "light helmet with nose and cheek protection"}
+
+
 		};
 
 		srand(static_cast <unsigned int> (time(0)));
